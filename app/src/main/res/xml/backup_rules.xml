@@ -7,7 +7,7 @@
 -->
 <full-backup-content>
     <!--
-   <include domain="sharedpref" path="."/>
-   <exclude domain="sharedpref" path="device.xml"/>
+   <include com.kslv.shoppinglist.domain="sharedpref" path="."/>
+   <exclude com.kslv.shoppinglist.domain="sharedpref" path="device.xml"/>
 -->
 </full-backup-content>
