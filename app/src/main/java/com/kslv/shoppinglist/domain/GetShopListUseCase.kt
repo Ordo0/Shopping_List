@@ -1,7 +1,10 @@
 package com.kslv.shoppinglist.domain
 
-class GetShopListUseCase (private val shopListRepository : ShopListRepository) {
-    fun getShopList(): List<ShopItem> {
+import androidx.lifecycle.LiveData
+
+class GetShopListUseCase(private val shopListRepository: ShopListRepository) {
+
+    fun getShopList(): LiveData<List<ShopItem>> {
         return shopListRepository.getShopList()
     }
 }
